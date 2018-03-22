@@ -1,12 +1,9 @@
-function addEventListener (param) {
-    console.log(param);
-}
 var list = document.getElementById('list'),
-    add = document.getElementById('addElem');
+    add = document.getElementById('addElem'),
+    items = document.getElementsByTagName('li');
 
 add.addEventListener('click', function(){
     var element = document.createElement('li');
-    var numberOfItems = document.getElementsByTagName('li').length;
-    element.innerHTML = 'item ' + numberOfItems;   
+    element.innerHTML = 'item ' + items.length;
     list.appendChild(element);
 });
