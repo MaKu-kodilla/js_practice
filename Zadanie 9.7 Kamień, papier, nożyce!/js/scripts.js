@@ -96,7 +96,7 @@ function playerPick(playerPick) {
 
     checkRoundWinner(playerPick, computerPick);
 }
-function checkGamePoints(playerResultElem, computerResultElem) {
+function checkGamePoints() {
     var ended = false;
     var winnerText = '';
 
@@ -112,6 +112,7 @@ function checkGamePoints(playerResultElem, computerResultElem) {
     }
 
     if(ended) {
+        alert(winnerText);
         setGameElements();
         player.score = 0;
         computer.score = 0;
