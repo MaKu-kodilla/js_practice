@@ -1,0 +1,38 @@
+.text-center {
+    margin-bottom: 30px;
+}
+.text-center p {
+    margin-bottom: 30px;
+    font-weight: bold;
+    display: block;
+}
+.text-center .label {
+    margin: 20px;
+    padding: 15px;
+    border-radius: 25%;
+}
+#js-newGameButton {
+    margin-top: 10px;
+    font-weight: bold;
+    border: none;
+    background-color: lightgrey;
+
+}
+#js-newGameButton:hover {
+    color: white;
+    background-color: darkgray;
+    border: none;
+}
+.text-center .btn {
+    margin: 15px;
+}
+#js-playerName {
+    font-weight: bold;
+}
+.text-center .vs {
+    font-weight: bold;
+}
+#js-playerResult, #js-computerResult {
+    font-size: 20px;
+    font-weight: bold;
+}
